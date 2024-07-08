@@ -6,6 +6,7 @@ import FormTags from './components/FormTags.vue'
 import Toggle from './components/Toggle.vue'
 import DateRange from './components/DateRange.vue'
 import DateTime from './components/DateTime.vue'
+import imageUpload from './components/imageUpload.vue'
 </script>
 
 <template>
@@ -30,6 +31,9 @@ import DateTime from './components/DateTime.vue'
   </div>
   <div class="contenedor-formulario">
     <DateTime />
+  </div>
+  <div class="contenedor-formulario">
+    <imageUpload />
   </div>
 </template>
 

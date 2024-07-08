@@ -13,6 +13,7 @@ const mostrarResultados = (datos, formulario) =>{
 </script>
 
 <template>
+    <h2>DateTime</h2>
     <Vueform :endpoint="mostrarResultados">
       <DateElement
         name="datetime"
