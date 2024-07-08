@@ -6,18 +6,18 @@ import FormTags from './components/FormTags.vue'
 </script>
 
 <template>
-  <h1 class="titulo-sombra">Formularios Básicos VueForm </h1>
+  <h1 class="titulo-degradado">Formularios VueForm </h1>
   <div class="contenedor-formulario">
     <FormBasico />
   </div>
   <div class="contenedor-formulario">
-    <Slider/>
+    <Slider />
   </div>
   <div class="contenedor-formulario">
-    <rangeSlider/>
+    <rangeSlider />
   </div>
   <div class="contenedor-formulario">
-    <FormTags/>
+    <FormTags />
   </div>
 </template>
 
@@ -31,13 +31,15 @@ import FormTags from './components/FormTags.vue'
   background-color: rgb(232, 232, 232);
 }
 
-h1{
+h1 {
   text-align: center;
+  color: #07bf9b
 }
 
-.titulo-sombra {
-    font-size: 2em; 
-    color: #07bf9b; 
-    text-shadow: 0 0 10px rgba(133, 133, 133, 0.5);
+.titulo-degradado {
+  font-size: 2em;
+  background-image: linear-gradient(to right, #07c6a0, #06977a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 </style>
