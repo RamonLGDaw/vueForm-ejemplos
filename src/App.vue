@@ -4,6 +4,8 @@ import Slider from './components/Slider.vue'
 import rangeSlider from './components/RangeSlider.vue'
 import FormTags from './components/FormTags.vue'
 import Toggle from './components/Toggle.vue'
+import DateRange from './components/DateRange.vue'
+import DateTime from './components/DateTime.vue'
 </script>
 
 <template>
@@ -23,6 +25,12 @@ import Toggle from './components/Toggle.vue'
   <div class="contenedor-formulario">
     <Toggle />
   </div>
+  <div class="contenedor-formulario">
+    <DateRange />
+  </div>
+  <div class="contenedor-formulario">
+    <DateTime />
+  </div>
 </template>
 
 <style scoped>
@@ -37,7 +45,6 @@ import Toggle from './components/Toggle.vue'
 
 h1 {
   text-align: center;
-  color: #07bf9b
 }
 
 .titulo-degradado {
