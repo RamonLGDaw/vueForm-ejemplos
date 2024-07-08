@@ -31,8 +31,5 @@ const  mostrarResultados = (datos, formulario) =>{
 
 <style scoped>
 
-p, h2{
-  text-align: center;
-}
 
 </style>
