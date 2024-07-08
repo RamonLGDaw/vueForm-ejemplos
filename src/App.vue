@@ -3,6 +3,7 @@ import FormBasico from './components/FormBasico.vue'
 import Slider from './components/Slider.vue'
 import rangeSlider from './components/RangeSlider.vue'
 import FormTags from './components/FormTags.vue'
+import Toggle from './components/Toggle.vue'
 </script>
 
 <template>
@@ -18,6 +19,9 @@ import FormTags from './components/FormTags.vue'
   </div>
   <div class="contenedor-formulario">
     <FormTags />
+  </div>
+  <div class="contenedor-formulario">
+    <Toggle />
   </div>
 </template>
 
