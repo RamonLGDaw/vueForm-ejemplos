@@ -6,7 +6,7 @@ import FormTags from './components/FormTags.vue'
 </script>
 
 <template>
-  <h1>Formularios Básicos VueForm </h1>
+  <h1 class="titulo-sombra">Formularios Básicos VueForm </h1>
   <div class="contenedor-formulario">
     <FormBasico />
   </div>
@@ -33,5 +33,11 @@ import FormTags from './components/FormTags.vue'
 
 h1{
   text-align: center;
+}
+
+.titulo-sombra {
+    font-size: 2em; 
+    color: #07bf9b; 
+    text-shadow: 0 0 10px rgba(133, 133, 133, 0.5);
 }
 </style>
