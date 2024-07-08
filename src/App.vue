@@ -28,7 +28,7 @@ import Toggle from './components/Toggle.vue'
 <style scoped>
 .contenedor-formulario {
   padding: 10px;
-  border: 1px solid #07bf9b;
+  border: 1px solid rgb(95, 95, 95);
   border-radius: 5px;
   margin: 10px auto;
   max-width: 600px;
