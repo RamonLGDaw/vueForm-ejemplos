@@ -1,4 +1,4 @@
-<script setup>
+<!-- <script setup>
 import { ref } from 'vue'
 let listaElementosSeleccionados = ref([])
 const mostrarValores = (datos, formulario) => {
@@ -6,7 +6,7 @@ const mostrarValores = (datos, formulario) => {
     listaElementosSeleccionados.value = formulario.data.tags
 }
 </script>
-<!-- comentario de prueba -->
+
 
 <template>
     <h2>Selector múltiples Tags</h2>
@@ -54,4 +54,4 @@ h2{
     margin: auto;
     
 }
-</style>
+</style> -->
