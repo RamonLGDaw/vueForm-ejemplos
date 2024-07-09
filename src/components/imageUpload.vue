@@ -2,8 +2,8 @@
 import { vueform } from '@vueform/vueform';
 
 
-const mostrarImage = (name, value) => {
-   console.log(value.data.image)
+const mostrarImage = (name, valor) => {
+   console.log(valor.data.image)
 
 }
 </script>
@@ -18,14 +18,11 @@ const mostrarImage = (name, value) => {
       label="Image"
       accept="image/*"
       view="image"
+      :auto="false"
       :rules="[
         'mimetypes:image/jpeg,image/png,image/gif,image/webp,image/svg+xml,image/tiff',
       ]"
     />
-    <ButtonElement
-      name="submit"
-      button-label="Submit"
-      :submits="true"
-    />
+    
   </Vueform>
 </template>
