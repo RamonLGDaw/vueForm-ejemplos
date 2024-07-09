@@ -6,7 +6,7 @@ const mostrarValores = (datos, formulario) => {
     listaElementosSeleccionados.value = formulario.data.tags
 }
 </script>
-
+<!-- comentario de prueba -->
 
 <template>
     <h2>Selector múltiples Tags</h2>
