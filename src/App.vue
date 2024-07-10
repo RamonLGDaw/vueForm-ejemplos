@@ -7,6 +7,7 @@ import DateRange from './components/DateRange.vue'
 import DateTime from './components/DateTime.vue'
 import ImageUpload from './components/imageUpload.vue'
 
+
 import { ref } from 'vue'
 
 let listaElementosSeleccionados = ref([])
@@ -58,6 +59,7 @@ const componentesFormulario = {
   <div v-for="item in listaElementosSeleccionados" :key="item" class="contenedor-formulario">
     <component :is="componentesFormulario[item]" />
   </div>
+
 </template>
 
 <style scoped>
