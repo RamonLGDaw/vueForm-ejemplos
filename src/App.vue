@@ -6,6 +6,7 @@ import Toggle from './components/Toggle.vue'
 import DateRange from './components/DateRange.vue'
 import DateTime from './components/DateTime.vue'
 import ImageUpload from './components/imageUpload.vue'
+import Multi_ImageUpload from './components/Multi-ImageUpload.vue'
 
 
 import { ref } from 'vue'
@@ -24,7 +25,8 @@ const componentesFormulario = {
   Slider: Slider,
   RangeSlider: RangeSlider,
   Toggle: Toggle,
-  ImageUpload: ImageUpload
+  ImageUpload: ImageUpload,
+  Multi_ImageUpload:Multi_ImageUpload
 }
 </script>
 
@@ -36,6 +38,7 @@ const componentesFormulario = {
       <TagsElement name="tags" 
       :close-on-select="false" 
       :search="true" 
+      drop
       :items="[
         { value: 'Text', label: 'Text' },
         { value: 'DateTime', label: 'DateTime' },
@@ -43,7 +46,9 @@ const componentesFormulario = {
         { value: 'Slider', label: 'Slider' },
         { value: 'RangeSlider', label: 'RangeSlider' },
         { value: 'Toggle', label: 'Toggle' },
-        { value: 'ImageUpload', label: 'ImageUpload' }
+        { value: 'ImageUpload', label: 'ImageUpload' },
+        { value: 'Multi_ImageUpload', label: 'Multi_ImageUpload' },
+
       ]" 
       label="Formularios disponibles:" 
       input-type="search" 
