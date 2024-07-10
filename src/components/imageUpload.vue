@@ -19,7 +19,7 @@ const mostrarImage = (name, valor) => {
 
 <template>
   <h2>Image Upload</h2>
-  <p class="aviso">**El botón 'Upload' no está funcional actualmente, utilizar 'Submit'.</p>
+  <p class="aviso">**El botón 'Upload' no está funcional actualmente, utilizar 'Submit' para mostrar la imagen.</p>
   <Vueform :endpoint="mostrarImage">
     <FileElement
       :upload-temp-endpoint="false"
